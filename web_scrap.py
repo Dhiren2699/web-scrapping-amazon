@@ -37,7 +37,7 @@ price = []
 for everyitem in detail2:
     price.append(everyitem.get_text())
 i=1
-for result in range(0,18):
+for result in range(0,10):
      
     print(+i,'. Name of The Product : ' +alt[result])
     print('    Price : '+price[result], 'RS.')
